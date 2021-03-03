@@ -2,5 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "gatsbycon",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+  ],
 };
