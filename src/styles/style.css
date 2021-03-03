@@ -1,4 +1,16 @@
-.title {
-    color:darkblue;
-    font-size: 3rem;
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-bar-link {
+    padding-right: 2rem;
+    float: left;
+    text-decoration: none;
+}
+
+.nav-bar-link:hover {
+    color: darkgray;
 }
